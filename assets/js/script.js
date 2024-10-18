@@ -59,19 +59,19 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portafolio | Andrés Ramos";
+            $("#favicon").attr("href", "assets/images/logoAR.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "Portafolio | Andrés Ramos";
+            $("#favicon").attr("href", "assets/images/logoAR.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["IoT", "Comunicaciones industriales", "desarrollo de interfaces industriales", "análisis de datos"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
