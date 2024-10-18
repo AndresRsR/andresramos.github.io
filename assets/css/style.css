@@ -315,8 +315,8 @@ header .navbar ul li a:hover {
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
-.social-icons a.dev:hover {
-  background-color: #070707;
+.social-icons a.whatsapp:hover {
+  background-color: #2CBC41;
 }
 .social-icons a.instagram:hover {
   background-color: #ee00da;
@@ -474,15 +474,15 @@ header .navbar ul li a:hover {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 2rem;
 }
 .skills .container .bar {
   margin-bottom: 15px;
